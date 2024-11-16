@@ -1,0 +1,17 @@
+{
+  "name": "my-server",
+  "version": "1.0.0",
+  "description": "live chat app",
+  "main": "index.js",
+  "author": "kashee",
+  "license": "MIT",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.21.1",
+    "nodemon": "^3.1.7",
+    "socket.io": "^4.8.1"
+  }
+}
